@@ -13,5 +13,4 @@ Encouraging me when I need a shove
 But most of all thank you for
 Loving me for who I am
 
-![](https://beautifulan)
 ![](https://beautifulanbb.com/resources/img/beautifulanan.jpeg)
