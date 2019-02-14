@@ -10,7 +10,7 @@ install: npm install
 notifications:
   email:
     recipients:
-      - sherlockblaze@gmail.com
+      - abbyhih@163.com
     on_success: change
     on_failure: always
 

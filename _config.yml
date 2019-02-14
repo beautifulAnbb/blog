@@ -64,7 +64,10 @@ featured-tags: true                     # whether or not using Feature-Tags
 
 ## Friends
 friends: [
-
+    {
+        title: "SherlockBlaze's Blog",
+        href: "https://sherlockblaze.com/"
+    }
 ]
 
 # Directory
@@ -133,7 +136,7 @@ sitemap:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repository:
+  repo:
     github: __GIT_REPO__
   branch: master
 
