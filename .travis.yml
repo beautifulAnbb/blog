@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+- 10.15.0
+branches:
+  only:
+  - master
+
+install: npm install
+
+notifications:
+  email:
+    recipients:
+      - sherlockblaze@gmail.com
+    on_success: change
+    on_failure: always
+
+before_script:
+- git config --global user.name "beautifulAnan"
+- git config --global user.email "abbyhih@163.com"
+- sed -i "s|__GIT_REPO__|${__GITHUB_REPO__}|" _config.yml
+- sed -i "s/__VISITORS_APPID__/${__VISITORS_APPID__}/" _config.yml
+- sed -i "s/__VISITORS_APPKEY__/${__VISITORS_APPKEY__}/" _config.yml
+
+script:
+  npm run build
