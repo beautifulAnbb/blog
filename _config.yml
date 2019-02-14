@@ -3,15 +3,15 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Sherlock Blaze
-subtitle: I bloom in the slaughter, like the flowers of the dawn
-author: Sherlock Blaze
+title: Sherlock Blaze # Your name
+subtitle: I bloom in the slaughter, like the flowers of the dawn # Whatever you love
+author: Sherlock Blaze # Change to your profile
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://sherlockblaze.com       # Note: don't forget to modify the CNAME file to your url
+url:       # Note: don't forget to modify the CNAME file to your url
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -19,20 +19,43 @@ permalink_defaults:
 #Custom Setting Start
 
 # Site settings
-SEOTitle: Sherlock Blaze
-email: sherlockblaze@gmail.com
+SEOTitle: # Whatever you want
+email: # your email
 description: ""
 keyword: ""
 signature: false #show signature
 signature-img:
 
 
-github_username: sherlockblaze
-linkedin_username: jam-blaze-606ab3163
-zhihu_username: sherlockblaze_007
+# SNS settings
+# RSS: false
+# weibo_username:     Demonbaneen
+# zhihu_username:     Demonbane
+# github_username:    sherlockblaze
+# twitter_username:   Demonbane_x
+# facebook_username:  YenYuHsuan
+# linkedin_username:  yu-hsuan-yen
 
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
+
+
+# Disqus settings
+#disqus_username: false
+
+# Duoshuo settings
+# duoshuo_username: kaijun
+# Share component is depend on Comment so we can NOT use share only.
+duoshuo_share: false                     # set to false if you want to use Comment without Sharing
+
+
+# Analytics settings
+# Baidu Analytics
+# ba_track_id: 4cc1f2d8f3067386cc5cdb626a202900
+# Google Analytics
+ga_track_id: 'UA-XXXXXXXX-X'          # Format: UA-xxxxxx-xx
+ga_domain: yoursite
+
 
 # Sidebar settings
 sidebar: true                       # whether or not using Sidebar.
@@ -45,15 +68,7 @@ widgets:
 - recent-posts
 - friends-blog
 - archive
-#- category
-
-recommended_posts:
-  server: https://api.truelaurel.com
-  timeoutInMillis: 10000
-  internalLinks: 3
-  externalLinks: 0
-  autoDisplay: true,
-  titleHtml: <span style="font-size:1.45em; color:gray">Recommened</span>
+- category
 
 # widget behavior
 ## Archive
@@ -63,18 +78,19 @@ show_count: true
 
 ## Featured Tags
 featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
 
 ## Friends
 friends: [
     {
-        title: "ChaosCoffee's Blog",
-        href: "https://chaoscoffee.github.io/"
-    },
-    {
-        title: "BeautyCatty's Blog",
-        href: "https://beautycatty.com/"
+        title: "SherlockBlaze's Blog",
+        href: "https://sherlockblaze.com/"
     }
 ]
+
+
+#Custom Setting End
 
 # Directory
 source_dir: source
@@ -132,6 +148,9 @@ archive_generator:
   monthly: true
   daily: false
   
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
 theme: beantech
 
 #sitemap
@@ -143,7 +162,7 @@ sitemap:
 deploy:
   type: git
   repository:
-    __GIT_KIND__: __GIT_REPO__
+    github: https://__GITHUB_TOKEN__@github.com/yours/yours.github.io.git # modify
   branch: master
 
 valine: true
