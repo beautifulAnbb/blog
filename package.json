@@ -22,6 +22,6 @@
     "ejs": "2.5.5"
   },
   "scripts": {
-    "build": "hexo clean && hexo generate"
+    "build": "hexo clean && hexo generate && hexo deploy"
   }
 }
