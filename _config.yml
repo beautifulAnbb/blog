@@ -3,15 +3,15 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Beautiful Abby
+title: Sherlock Blaze
 subtitle: I bloom in the slaughter, like the flowers of the dawn
-author: Beautiful Anbb
+author: Sherlock Blaze
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://beautifulAnbb.com       # Note: don't forget to modify the CNAME file to your url
+url: https://sherlockblaze.com       # Note: don't forget to modify the CNAME file to your url
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -19,15 +19,17 @@ permalink_defaults:
 #Custom Setting Start
 
 # Site settings
-SEOTitle: Beautiful Anbb
-email: abbyhih@163.com
+SEOTitle: Sherlock Blaze
+email: sherlockblaze@gmail.com
 description: ""
 keyword: ""
 signature: false #show signature
 signature-img:
 
 
-github_username: beautifulAnbb
+github_username: sherlockblaze
+linkedin_username: jam-blaze-606ab3163
+zhihu_username: sherlockblaze_007
 
 # Build settings
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
@@ -35,7 +37,7 @@ anchorjs: true                          # if you want to customize anchor. check
 # Sidebar settings
 sidebar: true                       # whether or not using Sidebar.
 sidebar-about-description-line1: "Keep Clean, Keep Simple."
-sidebar-about-description-line2: "Email: abbyhih@163.com"
+sidebar-about-description-line2: "Email: sherlockblaze@gmail.com"
 sidebar-avatar: resources/img/header_img/DogFace.jpg
 widgets:
 - featured-tags
@@ -65,8 +67,12 @@ featured-tags: true                     # whether or not using Feature-Tags
 ## Friends
 friends: [
     {
-        title: "SherlockBlaze's Blog",
-        href: "https://sherlockblaze.com/"
+        title: "ChaosCoffee's Blog",
+        href: "https://chaoscoffee.github.io/"
+    },
+    {
+        title: "BeautyCatty's Blog",
+        href: "https://beautycatty.com/"
     }
 ]
 
@@ -136,8 +142,8 @@ sitemap:
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo:
-    github: __GIT_REPO__
+  repository:
+    __GIT_KIND__: __GIT_REPO__
   branch: master
 
 valine: true
