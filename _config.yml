@@ -19,8 +19,8 @@ permalink_defaults:
 #Custom Setting Start
 
 # Site settings
-SEOTitle: Sherlock Blaze
-email: sherlockblaze@gmail.com
+SEOTitle: Beautiful World
+email: Unknown
 description: ""
 keyword: ""
 signature: false #show signature
@@ -35,7 +35,6 @@ anchorjs: true                          # if you want to customize anchor. check
 # Sidebar settings
 sidebar: true                       # whether or not using Sidebar.
 sidebar-about-description-line1: "Keep mystery, don't always contact."
-sidebar-about-description-line2: "Email: Unknown"
 sidebar-avatar: resources/img/header_img/beauty.jpeg
 widgets:
 - featured-tags
